@@ -1,0 +1,63 @@
+html {
+    background: #121212;
+    color: #fff;
+}
+
+.row {
+    max-width: 100%;
+    padding: 0 1rem;
+}
+
+#topbar,
+#page-title,
+.pageheader,
+.roundedbox,
+.gamestate_gameEnd #page-title,
+#server_status_warning_message,
+.chatwindowlogs,
+.chatwindowexpanded,
+.notouch-device .chatwindowcollapsed:hover {
+    background: #1e1e1e;
+    color: #fff;
+}
+
+#topbar a,
+.chatwindowcollapsedtitle {
+    color: #fff;
+}
+
+.pagesection,
+.portlet,
+.tips {
+    background-color: #373737;
+    color: #fff;
+}
+
+.gametable,
+.pagesection h2,
+.pagesection h3,
+.portlet h2,
+.portlet h3,
+.notouch-device .gamelist_item:hover,
+.chatwindowcollapsed,
+.chatwindowlogs_zone .roundedbox.chatlog .roundedboxinner {
+    background: #262626;
+    color: #fff;
+}
+
+.pagesection h3 a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.bgabutton_gray,
+a.bgabutton_gray {
+    color: #fff;
+    border-color: #fff;
+}
+
+.notouch-device #topbar a.menu_item:hover,
+#topbar a.navigation-button-active {
+    color: #fff;
+    background: #373737;
+}
