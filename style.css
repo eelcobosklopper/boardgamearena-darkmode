@@ -17,7 +17,8 @@ color:#fff;
 color:#FFF;
 }
 
-.pagesection,.portlet,.tips,.player-board,#ingame_menu_content {
+.pagesection,.portlet,.tips,.player-board,#ingame_menu_content,#popin_eventDlg {
+background:#373737;
 background-color:#373737;
 color:#fff;
 }
