@@ -16,7 +16,7 @@ color:#fff;
 }
 
 /* Dialog boxes, modals etc. */
-.pagesection,.portlet,.tips,.player-board,#ingame_menu_content,#popin_eventDlg, #friend-menu, #login-menu, .standard_popin {
+.pagesection,.portlet,.tips,.player-board,#ingame_menu_content,#popin_eventDlg, #friend-menu, #login-menu, .standard_popin, .comment {
 background:#373737;
 background-color:#373737;
 color:#fff;
