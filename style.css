@@ -8,7 +8,7 @@ max-width:100%;
 padding:0 1rem;
 }
 
-#topbar,#page-title,.pageheader,.roundedbox,.gamestate_gameEnd #page-title,#server_status_warning_message,.chatwindowlogs,.chatwindowexpanded,.notouch-device .chatwindowcollapsed:hover,#maintitlebar_content {
+#topbar,#page-title,.pageheader,.roundedbox,.gamestate_gameEnd #page-title,#server_status_warning_message,.chatwindowlogs,.chatwindowexpanded,.notouch-device .chatwindowcollapsed:hover,#maintitlebar_content, .gamestart_overlay {
 background:#1e1e1e;
 color:#fff;
 }
