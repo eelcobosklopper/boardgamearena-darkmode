@@ -42,3 +42,11 @@ border-color:#fff;
 color:#FFF;
 background:#373737;
 }
+
+.newbgatable th, .newbgatable td {
+  color: #fff;
+}
+
+.notouch-device .newbgatable tbody tr:hover td {
+  color: #4871b6;
+}
