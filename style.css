@@ -17,7 +17,7 @@ color:#fff;
 color:#FFF;
 }
 
-.pagesection,.portlet,.tips,.player-board,#ingame_menu_content,#popin_eventDlg, #friend-menu {
+.pagesection,.portlet,.tips,.player-board,#ingame_menu_content,#popin_eventDlg, #friend-menu, #login-menu {
 background:#373737;
 background-color:#373737;
 color:#fff;
@@ -43,7 +43,7 @@ color:#FFF;
 background:#373737;
 }
 
-.newbgatable th, .newbgatable td {
+.newbgatable th, .newbgatable td, #topbar #login-menu a {
   color: #fff;
 }
 
