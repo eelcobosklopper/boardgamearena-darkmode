@@ -51,3 +51,7 @@ background:#373737;
 .notouch-device .newbgatable tbody tr:hover td {
   color: #4871b6;
 }
+
+.wannaplayauto_button {
+ box-shadow: none;
+}
