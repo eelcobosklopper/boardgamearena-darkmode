@@ -67,6 +67,31 @@ background:#262626;
 background:#262626;
 }
 
+/* Most dropdown boxes and text should be dark */
+.tundra .dijitInputField, .tundra .dijitMenu, .tundra .dijitMenuBa, textarea {
+  background:#666666;
+}
+
+textarea {
+  color:#eeeeee;
+}
+
+.tundra .dijitInputField, .tundra .dijitMenu, .tundra .dijitMenuBa, textarea {
+  background:#666666;
+}
+
+textarea {
+  color:#eeeeee;
+}
+
+/* This is highlighted so I use pitch black for contrast, call to action, and to make it stand out. Trust me, #666666 didn't work. */
+.pageheader_menu_verylarge .pageheader_big_switch, .pageheader_menu_verylarge .pageheader_big_switch_dropdown .pageheader_menuitem.pageheader_menuitemselected, .bg-white {
+  background-color: #000000;
+}
+
+.notouch-device .pageheader_menu_verylarge .pageheader_big_switch:hover, .pageheader_menu_verylarge .dropdown_expanded .pageheader_big_switch, .pageheader_menu_verylarge .pageheader_big_switch_dropdown .pageheader_menuitem {
+  background-color: #333333;
+}
 
 .whiteblock {
 background: #1e1e1e;
@@ -92,5 +117,3 @@ background: #1e1e1e;
 #diceboard {
   background: #000000ba;
 }
-
-
