@@ -66,3 +66,31 @@ background:#262626;
 #switcher_zone_lobbymode {
 background:#262626;
 }
+
+
+.whiteblock {
+background: #1e1e1e;
+}
+
+/* Overlay over gamebox while loading */
+#loader_mask {
+  background: #000;
+}
+
+/* Background of progress bar */
+[class^=roundedbox] {
+  background: #1e1e1e !important;
+}
+
+/* Tooltip color (Stoneage) */ 
+.dijitTooltipContainer {
+  background: #373737 !important;
+  color: #FFF;
+}
+
+/* Overlay for dice related actions (Stoneage) */
+#diceboard {
+  background: #000000ba;
+}
+
+
