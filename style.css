@@ -1,4 +1,5 @@
-html {
+/* Wood color overwrite */
+html, .head_info, .bgabutton_gray {
 background:#121212;
 color:#fff;
 }
@@ -8,12 +9,14 @@ max-width:100%;
 padding:0 1rem;
 }
 
-#topbar,#page-title,.pageheader,.roundedbox,.gamestate_gameEnd #page-title,#server_status_warning_message,.chatwindowlogs,.chatwindowexpanded,.notouch-device .chatwindowcollapsed:hover,#maintitlebar_content,.gamestart_overlay {
+/* Main content blocks */
+#topbar,#page-title,.pageheader,.roundedbox,.gamestate_gameEnd #page-title,#server_status_warning_message,.chatwindowlogs,.chatwindowexpanded,.notouch-device .chatwindowcollapsed:hover,#maintitlebar_content, .gamestart_overlay, .bgabutton_gray:hover {
 background:#1e1e1e;
 color:#fff;
 }
 
-.pagesection,.portlet,.tips,.player-board,#ingame_menu_content,#popin_eventDlg,#friend-menu,#login-menu,.standard_popin,.comment {
+/* Dialog boxes, modals etc. */
+.pagesection,.portlet,.tips,.player-board,#ingame_menu_content,#popin_eventDlg, #friend-menu, #login-menu, .standard_popin, .comment, .chatwindowlogs_zone .roundedbox.chatlog.ownchatlog .roundedboxinner {
 background:#373737;
 background-color:#373737;
 color:#fff;
