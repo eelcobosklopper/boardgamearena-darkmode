@@ -4,7 +4,6 @@ background:#121212;
 color:#fff;
 }
 
-/* Full width */
 .row {
 max-width:100%;
 padding:0 1rem;
@@ -23,7 +22,6 @@ background-color:#373737;
 color:#fff;
 }
 
-/* Headers */
 .gametable,.pagesection h2,.pagesection h3,.portlet h2,.portlet h3,.notouch-device .gamelist_item:hover,.chatwindowcollapsed,.chatwindowlogs_zone .roundedbox.chatlog .roundedboxinner {
 background:#262626;
 color:#fff;
@@ -39,23 +37,39 @@ color:#fff;
 border-color:#fff;
 }
 
-.notouch-device #topbar a.menu_item:hover,#topbar a.navigation-button-active {
+.notouch-device #topbar a.menu_item:hover,#topbar a.navigation-button-active,#pageheader_mobile_switcher_gamemode,#pageheader_mobile_switcher,#pageheader_mobile_switcher_lobbymode {
 color:#FFF;
 background:#373737;
 }
 
-/* Specific text color fixes */
-.newbgatable th, .newbgatable td, #topbar #login-menu a, #topbar a,.chatwindowcollapsedtitle {
-  color: #fff;
+.newbgatable th,.newbgatable td,#topbar #login-menu a,#topbar a,.chatwindowcollapsedtitle {
+color:#fff;
 }
 
 .notouch-device .newbgatable tbody tr:hover td {
-  color: #4871b6;
+color:#4871b6;
 }
 
 .wannaplayauto_button {
- box-shadow: none;
+box-shadow:none;
 }
+
+#pageheader_simple,#pageheader_arena,#pageheader_tournament,#pageheader_realtime,#pageheader_async,#pageheader_friends,#pageheader_automatic,#pageheader_manual {
+background:#373737;
+}
+
+#switcher_zone {
+background:#262626;
+}
+
+#switcher_zone_gamemode {
+background:#262626;
+}
+
+#switcher_zone_lobbymode {
+background:#262626;
+}
+
 /* Most dropdown boxes and text should be dark */
 .tundra .dijitInputField, .tundra .dijitMenu, .tundra .dijitMenuBa, textarea {
   background:#666666;
@@ -82,3 +96,27 @@ textarea {
   background-color: #333333;
 }
 
+.whiteblock {
+background: #1e1e1e;
+}
+
+/* Overlay over gamebox while loading */
+#loader_mask {
+  background: #000;
+}
+
+/* Background of progress bar */
+[class^=roundedbox] {
+  background: #1e1e1e !important;
+}
+
+/* Tooltip color (Stoneage) */ 
+.dijitTooltipContainer {
+  background: #373737 !important;
+  color: #FFF;
+}
+
+/* Overlay for dice related actions (Stoneage) */
+#diceboard {
+  background: #000000ba;
+}
