@@ -1,103 +1,149 @@
+:root {
+  --text: #fff;
+
+  --page-bg: #121212;
+  --main-content-bg: #1e1e1e;
+  --section-bg: #262626;
+  --popover-bg: #373737;
+  --highlight-bg: #000;
+  --input-bg: #666;
+}
+
 /* Wood color overwrite */
-html, .head_info, .bgabutton_gray {
-background:#121212;
-color:#fff;
+html,
+.head_info,
+.bgabutton_gray {
+  background: var(--page-bg);
+  color: var(--text);
 }
 
 .row {
-max-width:100%;
-padding:0 1rem;
+  max-width: 100%;
+  padding: 0 1rem;
 }
 
 /* Main content blocks */
-#topbar,#page-title,.pageheader,.roundedbox,.gamestate_gameEnd #page-title,#server_status_warning_message,.chatwindowlogs,.chatwindowexpanded,.notouch-device .chatwindowcollapsed:hover,#maintitlebar_content, .gamestart_overlay, .bgabutton_gray:hover {
-background:#1e1e1e;
-color:#fff;
+#topbar,
+#page-title,
+.pageheader,
+.roundedbox,
+.gamestate_gameEnd #page-title,
+#server_status_warning_message,
+.chatwindowlogs,
+.chatwindowexpanded,
+.notouch-device .chatwindowcollapsed:hover,
+#maintitlebar_content,
+.gamestart_overlay,
+.bgabutton_gray:hover {
+  background: var(--main-content-bg);
+  color: var(--text);
 }
 
 /* Dialog boxes, modals etc. */
-.pagesection,.portlet,.tips,.player-board,#ingame_menu_content,#popin_eventDlg, #friend-menu, #login-menu, .standard_popin, .comment, .chatwindowlogs_zone .roundedbox.chatlog.ownchatlog .roundedboxinner {
-background:#373737;
-background-color:#373737;
-color:#fff;
+.pagesection,
+.portlet,
+.tips,
+.player-board,
+#ingame_menu_content,
+#popin_eventDlg,
+#friend-menu,
+#login-menu,
+.standard_popin,
+.comment,
+.chatwindowlogs_zone .roundedbox.chatlog.ownchatlog .roundedboxinner,
+.notouch-device #topbar a.menu_item:hover,
+#topbar a.navigation-button-active,
+#pageheader_mobile_switcher_gamemode,
+#pageheader_mobile_switcher,
+#pageheader_mobile_switcher_lobbymode,
+#pageheader_simple,
+#pageheader_arena,
+#pageheader_tournament,
+#pageheader_realtime,
+#pageheader_async,
+#pageheader_friends,
+#pageheader_automatic,
+#pageheader_manual {
+  background-color: var(--popover-bg);
+  color: var(--text);
 }
 
-.gametable,.pagesection h2,.pagesection h3,.portlet h2,.portlet h3,.notouch-device .gamelist_item:hover,.chatwindowcollapsed,.chatwindowlogs_zone .roundedbox.chatlog .roundedboxinner {
-background:#262626;
-color:#fff;
+/* Page sections */
+.gametable,
+.pagesection h2,
+.pagesection h3,
+.portlet h2,
+.portlet h3,
+.notouch-device .gamelist_item:hover,
+.chatwindowcollapsed,
+.chatwindowlogs_zone .roundedbox.chatlog .roundedboxinner,
+#switcher_zone,
+#switcher_zone_gamemode,
+#switcher_zone_lobbymode {
+  background: var(--section-bg);
+  color: var(--text);
 }
 
 .pagesection h3 a {
-color:#fff;
-text-decoration:underline;
+  color: var(--text);
+  text-decoration: underline;
 }
 
-.bgabutton_gray,a.bgabutton_gray {
-color:#fff;
-border-color:#fff;
+.bgabutton_gray,
+a.bgabutton_gray {
+  color: var(--text);
+  border-color: var(--text);
 }
 
-.notouch-device #topbar a.menu_item:hover,#topbar a.navigation-button-active,#pageheader_mobile_switcher_gamemode,#pageheader_mobile_switcher,#pageheader_mobile_switcher_lobbymode {
-color:#FFF;
-background:#373737;
-}
-
-.newbgatable th,.newbgatable td,#topbar #login-menu a,#topbar a,.chatwindowcollapsedtitle {
-color:#fff;
+.newbgatable th,
+.newbgatable td,
+#topbar #login-menu a,
+#topbar a,
+.chatwindowcollapsedtitle,
+a.agenda-tournament-list__item,
+a.agenda-tournament-list__item:hover,
+.agenda-tournament-list__players-num,
+.agenda-tournament-list__title,
+.controlpanelmenu .panelmenuicon {
+  color: var(--text);
 }
 
 .notouch-device .newbgatable tbody tr:hover td {
-color:#4871b6;
+  color: #4871b6;
 }
 
 .wannaplayauto_button {
-box-shadow:none;
-}
-
-#pageheader_simple,#pageheader_arena,#pageheader_tournament,#pageheader_realtime,#pageheader_async,#pageheader_friends,#pageheader_automatic,#pageheader_manual {
-background:#373737;
-}
-
-#switcher_zone {
-background:#262626;
-}
-
-#switcher_zone_gamemode {
-background:#262626;
-}
-
-#switcher_zone_lobbymode {
-background:#262626;
+  box-shadow: none;
 }
 
 /* Most dropdown boxes and text should be dark */
-.tundra .dijitInputField, .tundra .dijitMenu, .tundra .dijitMenuBa, textarea {
-  background:#666666;
-}
-
+.tundra .dijitInputField,
+.tundra .dijitMenu,
+.tundra .dijitMenuBa,
 textarea {
-  color:#eeeeee;
+  background: var(--input-bg);
+  color: var(--text);
 }
 
-.tundra .dijitInputField, .tundra .dijitMenu, .tundra .dijitMenuBa, textarea {
-  background:#666666;
+/* Highlighted areas */
+.pageheader_menu_verylarge .pageheader_big_switch,
+.pageheader_menu_verylarge
+  .pageheader_big_switch_dropdown
+  .pageheader_menuitem.pageheader_menuitemselected,
+.bg-white {
+  background-color: var(--highlight-bg);
 }
 
-textarea {
-  color:#eeeeee;
-}
-
-/* This is highlighted so I use pitch black for contrast, call to action, and to make it stand out. Trust me, #666666 didn't work. */
-.pageheader_menu_verylarge .pageheader_big_switch, .pageheader_menu_verylarge .pageheader_big_switch_dropdown .pageheader_menuitem.pageheader_menuitemselected, .bg-white {
-  background-color: #000000;
-}
-
-.notouch-device .pageheader_menu_verylarge .pageheader_big_switch:hover, .pageheader_menu_verylarge .dropdown_expanded .pageheader_big_switch, .pageheader_menu_verylarge .pageheader_big_switch_dropdown .pageheader_menuitem {
-  background-color: #333333;
+.notouch-device .pageheader_menu_verylarge .pageheader_big_switch:hover,
+.pageheader_menu_verylarge .dropdown_expanded .pageheader_big_switch,
+.pageheader_menu_verylarge
+  .pageheader_big_switch_dropdown
+  .pageheader_menuitem {
+  background-color: #333;
 }
 
 .whiteblock {
-background: #1e1e1e;
+  background: #1e1e1e;
 }
 
 /* Overlay over gamebox while loading */
@@ -106,17 +152,21 @@ background: #1e1e1e;
 }
 
 /* Background of progress bar */
-[class^=roundedbox] {
+[class^="roundedbox"] {
   background: #1e1e1e !important;
 }
 
-/* Tooltip color (Stoneage) */ 
+/* === GAME SPECIFIC STUFF === */
+
+/* == STONE AGE == */
+
+/* Tooltip color (Stoneage) */
 .dijitTooltipContainer {
-  background: #373737 !important;
-  color: #FFF;
+  background: var(--popover-bg) !important;
+  color: var(--text);
 }
 
 /* Overlay for dice related actions (Stoneage) */
 #diceboard {
-  background: #000000ba;
+  background: #000000;
 }
