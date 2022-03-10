@@ -1,0 +1,27 @@
+{
+  "name": "boardgamearena-darkmode",
+  "version": "1.0.0",
+  "description": "A CSS only darkmode for Board Game Arena",
+  "main": "style.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eelcobosklopper/boardgamearena-darkmode.git"
+  },
+  "keywords": [
+    "bga",
+    "Board",
+    "Game",
+    "Arena",
+    "darkmode",
+    "css"
+  ],
+  "author": "Eelco Bosklopper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eelcobosklopper/boardgamearena-darkmode/issues"
+  },
+  "homepage": "https://github.com/eelcobosklopper/boardgamearena-darkmode#readme"
+}
