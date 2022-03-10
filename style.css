@@ -1,12 +1,15 @@
 :root {
   --text: #fff;
 
-  --page-bg: #121212;
+  --page-bg: #0d1117;
+  --header-bg: #161b22;
   --main-content-bg: #1e1e1e;
   --section-bg: #262626;
   --popover-bg: #373737;
   --highlight-bg: #000;
   --input-bg: #666;
+  --color-border-default: #30363d;
+  --link: #58a6ff;
 }
 
 /* Wood color overwrite */
@@ -15,6 +18,10 @@ html,
 .bgabutton_gray {
   background: var(--page-bg);
   color: var(--text);
+}
+
+a {
+  color: var(--link) !important;
 }
 
 .row {
@@ -27,6 +34,7 @@ html,
 #page-title,
 .pageheader,
 .roundedbox,
+.pagesection__content,
 .gamestate_gameEnd #page-title,
 #server_status_warning_message,
 .chatwindowlogs,
@@ -37,6 +45,13 @@ html,
 .bgabutton_gray:hover {
   background: var(--main-content-bg);
   color: var(--text);
+}
+
+/* Header & nav */
+.bga-menu-bar,
+.bga-menu-subbar {
+  background: var(--header-bg) !important;
+  color: var(--text) !important;
 }
 
 /* Dialog boxes, modals etc. */
@@ -63,9 +78,14 @@ html,
 #pageheader_async,
 #pageheader_friends,
 #pageheader_automatic,
-#pageheader_manual {
+#pageheader_manual,
+.chatwindowavatar .avatarwrap {
   background-color: var(--popover-bg);
   color: var(--text);
+  border: 1px solid var(--color-border-default);
+
+  /* fix for overlay image comment section*/
+  background-image: none; 
 }
 
 /* Page sections */
