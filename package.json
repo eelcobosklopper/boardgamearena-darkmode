@@ -1,6 +1,6 @@
 {
   "name": "boardgamearena-darkmode",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A CSS only darkmode for Board Game Arena",
   "main": "style.css",
   "scripts": {
